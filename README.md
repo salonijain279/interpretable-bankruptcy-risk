@@ -1,14 +1,14 @@
 # Interpretable Bankruptcy Risk Modeling
 
-A responsible-AI case study comparing global feature interpretations across Decision Tree, Random Forest, SHAP TreeExplainer, and SHAP KernelExplainer models.
+I built this responsible-AI case study to compare not only which bankruptcy-risk model performed better, but also whether different interpretation methods told a consistent story. I evaluated Decision Tree and Random Forest models alongside their global feature rankings and SHAP explanations.
 
-## Business question
+## The question I asked
 
 Can accounting ratios help identify firms that may need closer financial review, while keeping the model's reasoning understandable to analysts and executives?
 
-This project treats the model as a screening aid. It does not automate lending, investment, or advisory decisions.
+I treat the model as a screening aid, not as an automated lending, investment, or advisory decision.
 
-## Approach
+## What I did
 
 - Modeled 132 manufacturing and retail firms using 24 accounting ratios.
 - Preserved a held-out test set of 27 firms and selected model settings with five-fold cross-validation on the training set.
