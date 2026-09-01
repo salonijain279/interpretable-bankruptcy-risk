@@ -48,7 +48,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Obtain the classroom case dataset and save it as `data/bankruptcy.csv`. Then run the notebook from the `notebooks/` directory, or run the reusable script:
+The source dataset is not distributed in this repository. Save an authorized copy as `data/bankruptcy.csv`, then run the notebook from the `notebooks/` directory or execute the reusable script:
 
 ```bash
 python src/model_audit.py --data data/bankruptcy.csv --output artifacts
